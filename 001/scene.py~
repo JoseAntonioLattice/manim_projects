@@ -1,0 +1,68 @@
+from manim import *
+
+
+class RomanticText(Scene):
+    def construct(self):
+        text = Text("Hola Beibi, TE AMO <3")
+        #circle = Circle()  # create a circle
+        #circle.set_fill(PINK, opacity=0.5)  # set the color and transparency
+        self.play(Write(text, run_time=3))  # show the circle on screen
+        text = Text("Esto esta shido siono")
+        text.to_edge(DOWN)
+        self.play(Write(text, run_time=5))
+
+
+class HelloWorld(Scene):
+    def construct(self):
+        circle = Circle()
+        square = Square()
+
+        text = Tex("Oye, me dijiste que me ibas a llevar a comer", font_size=72)
+        text.scale(0.9)
+        #text.to_edge(UP)
+        text2 = Tex("TQM?")
+        text3 = Tex("Tons Que Monserrat?")
+
+        #text2.move_to([2,-0.1,0])
+        #text3.move_to([-2,0,0])
+        self.play(
+            Write(text, run_time=3)
+        )
+        self.clear()
+        self.play(
+            Write(text2, run_time=3)
+        )
+        self.clear()
+        self.play(
+            Write(text3, run_time=3)
+        )
+        #self.clear()
+
+        
+        '''
+        self.play(
+            Transform(text[12][0], text2[0][0]),
+            Transform(text[13][0], text2[1][0]),
+            Transform(text[6][0], text3[0][0]),
+            Transform(text[2][0], text3[1][0]),
+            run_time=5,
+            rate_func=linear
+        )
+        '''
+        #self.wait(3)
+
+        
+class Irlanda(Scene):
+    def construct(self):
+        text = Tex("Oye...")
+        text2 = Tex("Te invito a tomar té")
+        text3 = Tex("Y a comer galletas")
+
+        self.play(Write(text,run_time=1))
+        self.wait(2)
+        self.clear()
+        self.play(Write(text2,run_time=3))
+        self.wait(1)
+        self.clear()
+        self.play(Write(text3,run_time=3))
+        self.wait(2)
