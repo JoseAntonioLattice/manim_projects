@@ -1,0 +1,1136 @@
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py MatchingEquationsParts
+Manim Community v0.18.1
+
+[10/15/24 11:25:37] ERROR                                       module_ops.py:92
+                                MatchingEquationsParts is not                   
+                             in the script                                      
+                                                                                
+1: Anagram
+2: MakeSquare
+3: MatchingEquationParts
+4: SimpleAnimation
+5: TexTransformExample
+ 
+Choose number corresponding to desired scene/arguments.
+(Use comma separated list for multiple entries)
+Choice(s):  manim -pql square.py MatchingEquationParts
+[10/15/24 11:25:51] ERROR    No scenes were selected. Exiting. module_ops.py:124
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py MatchingEquationParts
+Manim Community v0.18.1
+
+[10/15/24 11:26:22] INFO     Writing a to                tex_file_writing.py:109
+                             media/Tex/8bb2a9c5ac9d5a80.                        
+                             tex                                                
+[10/15/24 11:26:26] INFO     Writing b to                tex_file_writing.py:109
+                             media/Tex/54d4a631621012a2.                        
+                             tex                                                
+[10/15/24 11:26:27] INFO     Writing c to                tex_file_writing.py:109
+                             media/Tex/40d611f661d7621b.                        
+                             tex                                                
+                    INFO     Writing x ^2 + y ^2 = z ^2  tex_file_writing.py:109
+                             to                                                 
+                             media/Tex/345f7752be33bb40.                        
+                             tex                                                
+[10/15/24 11:26:28] INFO     Writing x to                tex_file_writing.py:109
+                             media/Tex/d3c1af651a272204.                        
+                             tex                                                
+[10/15/24 11:26:29] INFO     Writing ^2 to               tex_file_writing.py:109
+                             media/Tex/1d39ec366ba44c9c.                        
+                             tex                                                
+                    INFO     Writing + to                tex_file_writing.py:109
+                             media/Tex/9f38976a758de16a.                        
+                             tex                                                
+[10/15/24 11:26:30] INFO     Writing y to                tex_file_writing.py:109
+                             media/Tex/3ecdda5b14fcaacb.                        
+                             tex                                                
+                    INFO     Writing = to                tex_file_writing.py:109
+                             media/Tex/383d1fb9b7d92e82.                        
+                             tex                                                
+[10/15/24 11:26:31] INFO     Writing z to                tex_file_writing.py:109
+                             media/Tex/43b964ac29d1fef3.                        
+                             tex                                                
+[10/15/24 11:26:32] INFO     Writing a ^2 + b ^2 = c ^2  tex_file_writing.py:109
+                             to                                                 
+                             media/Tex/7d9ae77a19b37b10.                        
+                             tex                                                
+                    INFO     Writing a ^2 = c ^2 - b ^2  tex_file_writing.py:109
+                             to                                                 
+                             media/Tex/79f574c0842a85a0.                        
+                             tex                                                
+[10/15/24 11:26:33] INFO     Writing - to                tex_file_writing.py:109
+                             media/Tex/ba96de15f98acfc8.                        
+                             tex                                                
+[10/15/24 11:26:38] INFO     Animation 0 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/1185818338_364937250                         
+                             8_452766873.mp4'                                   
+[10/15/24 11:26:39] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_4263954858                         
+                             _4227516557.mp4'                                   
+                    INFO     Animation 2 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_1959358871                         
+                             _1151948996.mp4'                                   
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_1662326736                         
+                             _574630669.mp4'                                    
+                    INFO     Animation 4 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_1959358871                         
+                             _285490925.mp4'                                    
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+[10/15/24 11:26:40] INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/MatchingEq                         
+                             uationParts.mp4'                                   
+                                                                                
+                    INFO     Rendered MatchingEquationParts         scene.py:247
+                             Played 5 animations                                
+[10/15/24 11:26:41] INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/Ma                
+                             tchingEquationParts.mp4'                           
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py MatchingEquationParts
+Manim Community v0.18.1
+
+/home/jose/Documents/manim_projects/002/square.py:152: SyntaxWarning: invalid escape sequence '\s'
+  eq4 = MathTex("{{a}}", "=", "\sqrt{{c}}^2 - {{b}}^2")
+[10/15/24 11:30:03] INFO     Writing a = \sqrt c ^2 -  b tex_file_writing.py:109
+                             ^2 to                                              
+                             media/Tex/ef581c2b84f27922.                        
+                             tex                                                
+[10/15/24 11:30:04] INFO     Writing \sqrt{\quad} to     tex_file_writing.py:109
+                             media/Tex/c0b17f57995f51fa.                        
+                             tex                                                
+[10/15/24 11:30:05] INFO     Writing ^2 - to             tex_file_writing.py:109
+                             media/Tex/4091ddc0a7e2ab57.                        
+                             tex                                                
+                    INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_3649372508_45276687                     
+                             3)                                                 
+[10/15/24 11:30:06] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_3643502174                         
+                             _4227516557.mp4'                                   
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_1959358871_115194899                     
+                             6)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_598074634_                         
+                             574630669.mp4'                                     
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_1959358871_285490925                     
+                             )                                                  
+                    INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_3815926315                         
+                             _3225202723.mp4'                                   
+                    INFO     Animation 6 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_1959358871                         
+                             _1177385364.mp4'                                   
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/MatchingEq                         
+                             uationParts.mp4'                                   
+                                                                                
+                    INFO     Rendered MatchingEquationParts         scene.py:247
+                             Played 7 animations                                
+[10/15/24 11:30:07] INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/Ma                
+                             tchingEquationParts.mp4'                           
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py MatchingEquationParts
+Manim Community v0.18.1
+
+/home/jose/Documents/manim_projects/002/square.py:152: SyntaxWarning: invalid escape sequence '\s'
+  eq4 = MathTex("{{a}}", "=", "\sqrt{{{c}}^2 - {{b}}^2}")
+[10/15/24 11:30:27] INFO     Writing a = \sqrt {c ^2 -   tex_file_writing.py:109
+                             b ^2} to                                           
+                             media/Tex/ede32886291ff54b.                        
+                             tex                                                
+                    INFO     Writing {c} to              tex_file_writing.py:109
+                             media/Tex/f034238cada768dd.                        
+                             tex                                                
+[10/15/24 11:30:28] INFO     Writing {^2} to             tex_file_writing.py:109
+                             media/Tex/5336b3e759acd231.                        
+                             tex                                                
+[10/15/24 11:30:29] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_3649372508_45276687                     
+                             3)                                                 
+                    INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_450923190_                         
+                             4227516557.mp4'                                    
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_1959358871_115194899                     
+                             6)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_1227937152                         
+                             _574630669.mp4'                                    
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_1959358871_285490925                     
+                             )                                                  
+                    INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_297588505_                         
+                             3225202723.mp4'                                    
+[10/15/24 11:30:30] INFO     Animation 6 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/MatchingEquation                         
+                             Parts/624642324_1959358871                         
+                             _2602511136.mp4'                                   
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/MatchingEq                         
+                             uationParts.mp4'                                   
+                                                                                
+                    INFO     Rendered MatchingEquationParts         scene.py:247
+                             Played 7 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/Ma                
+                             tchingEquationParts.mp4'                           
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+/home/jose/Documents/manim_projects/002/square.py:152: SyntaxWarning: invalid escape sequence '\s'
+  eq4 = MathTex("{{a}}", "=", "\sqrt{{{c}}^2 - {{b}}^2}")
+[10/15/24 11:35:19] INFO     Writing a x ^2 + b x + c =  tex_file_writing.py:109
+                             0 to                                               
+                             media/Tex/865308f34474f289.                        
+                             tex                                                
+[10/15/24 11:35:20] INFO     Writing 0 to                tex_file_writing.py:109
+                             media/Tex/66e1bc57a83e0f07.                        
+                             tex                                                
+[10/15/24 11:35:21] INFO     Animation 0 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/11                         
+                             85818338_2268332985_223786                         
+                             8992.mp4'                                          
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 1 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:35:49] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 1 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:37:20] INFO     Writing a x ^2 + b x + = -  tex_file_writing.py:109
+                             c to                                               
+                             media/Tex/b0c34d53e1b9bdd4.                        
+                             tex                                                
+                    INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+[10/15/24 11:37:21] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2605183293_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_3072635                         
+                             886.mp4'                                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 3 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:38:30] INFO     Writing a x ^2 + b x = - c  tex_file_writing.py:109
+                             to                                                 
+                             media/Tex/6af1a0952f5989d9.                        
+                             tex                                                
+[10/15/24 11:38:31] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+                    INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_4118519244_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_1489396                         
+                             182.mp4'                                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 3 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:40:15] INFO     Writing x ^2 + \frac{  b  } tex_file_writing.py:109
+                             {  a  } x = - \frac{  c  }                         
+                             {  a  } to                                         
+                             media/Tex/82a8ea4f0ef6e862.                        
+                             tex                                                
+[10/15/24 11:40:16] INFO     Writing \frac{} to          tex_file_writing.py:109
+                             media/Tex/18714be86d827314.                        
+                             tex                                                
+                    ERROR    LaTeX compilation error:    tex_file_writing.py:314
+                             Missing } inserted.                                
+                                                                                
+                    ERROR    Context of error:           tex_file_writing.py:348
+                             -> \frac{}                                         
+                             \end{align*}                                       
+                             \end{document}                                     
+                    ERROR    A group of double braces, {{ ... tex_mobject.py:281
+                             }}, was detected in                                
+                             your string. Manim splits TeX                      
+                             strings at the double                              
+                             braces, which might have caused                    
+                             the current                                        
+                             compilation error. If you didn't                   
+                             use the double brace                               
+                             split intentionally, add spaces                    
+                             between the braces to                              
+                             avoid the automatic splitting:                     
+                             {{ ... }} --> { { ... } }.                         
+                                                                                
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ cli/render/commands.py:120 in render                                         │
+│                                                                              │
+│   117 │   │   │   try:                                                       │
+│   118 │   │   │   │   with tempconfig({}):                                   │
+│   119 │   │   │   │   │   scene = SceneClass()                               │
+│ ❱ 120 │   │   │   │   │   scene.render()                                     │
+│   121 │   │   │   except Exception:                                          │
+│   122 │   │   │   │   error_console.print_exception()                        │
+│   123 │   │   │   │   sys.exit(1)                                            │
+│                                                                              │
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ scene/scene.py:229 in render                                                 │
+│                                                                              │
+│    226 │   │   """                                                           │
+│    227 │   │   self.setup()                                                  │
+│    228 │   │   try:                                                          │
+│ ❱  229 │   │   │   self.construct()                                          │
+│    230 │   │   except EndSceneEarlyException:                                │
+│    231 │   │   │   pass                                                      │
+│    232 │   │   except RerunSceneException as e:                              │
+│                                                                              │
+│ /home/jose/Documents/manim_projects/002/square.py:167 in construct           │
+│                                                                              │
+│   164 │   │                                                                  │
+│   165 │   │   eq1 = MathTex("{{a}}","{{x}}^2","+","{{b}}", "{{x}}", "+", "{{ │
+│   166 │   │   eq2 = MathTex("{{a}}","{{x}}^2","+","{{b}}", "{{x}}", "=", "-" │
+│ ❱ 167 │   │   eq3 = MathTex("{{x}}^2","+","\\frac{ {{b}} } { {{a}} }", "{{x} │
+│   168 │   │                                                                  │
+│   169 │   │   self.add(eq1)                                                  │
+│   170 │   │   self.wait(1)                                                   │
+│                                                                              │
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ mobject/text/tex_mobject.py:293 in __init__                                  │
+│                                                                              │
+│   290 │   │   │   │   │   │   """,                                           │
+│   291 │   │   │   │   │   ),                                                 │
+│   292 │   │   │   │   )                                                      │
+│ ❱ 293 │   │   │   raise compilation_error                                    │
+│   294 │   │   self.set_color_by_tex_to_color_map(self.tex_to_color_map)      │
+│   295 │   │                                                                  │
+│   296 │   │   if self.organize_left_to_right:                                │
+│                                                                              │
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ mobject/text/tex_mobject.py:278 in __init__                                  │
+│                                                                              │
+│   275 │   │   │   │   tex_template=self.tex_template,                        │
+│   276 │   │   │   │   **kwargs,                                              │
+│   277 │   │   │   )                                                          │
+│ ❱ 278 │   │   │   self._break_up_by_substrings()                             │
+│   279 │   │   except ValueError as compilation_error:                        │
+│   280 │   │   │   if self.brace_notation_split_occurred:                     │
+│   281 │   │   │   │   logger.error(                                          │
+│                                                                              │
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ mobject/text/tex_mobject.py:337 in _break_up_by_substrings                   │
+│                                                                              │
+│   334 │   │   new_submobjects = []                                           │
+│   335 │   │   curr_index = 0                                                 │
+│   336 │   │   for tex_string in self.tex_strings:                            │
+│ ❱ 337 │   │   │   sub_tex_mob = SingleStringMathTex(                         │
+│   338 │   │   │   │   tex_string,                                            │
+│   339 │   │   │   │   tex_environment=self.tex_environment,                  │
+│   340 │   │   │   │   tex_template=self.tex_template,                        │
+│                                                                              │
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ mobject/text/tex_mobject.py:81 in __init__                                   │
+│                                                                              │
+│    78 │   │                                                                  │
+│    79 │   │   assert isinstance(tex_string, str)                             │
+│    80 │   │   self.tex_string = tex_string                                   │
+│ ❱  81 │   │   file_name = tex_to_svg_file(                                   │
+│    82 │   │   │   self._get_modified_expression(tex_string),                 │
+│    83 │   │   │   environment=self.tex_environment,                          │
+│    84 │   │   │   tex_template=self.tex_template,                            │
+│                                                                              │
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ utils/tex_file_writing.py:63 in tex_to_svg_file                              │
+│                                                                              │
+│    60 │   if svg_file.exists():                                              │
+│    61 │   │   return svg_file                                                │
+│    62 │                                                                      │
+│ ❱  63 │   dvi_file = compile_tex(                                            │
+│    64 │   │   tex_file,                                                      │
+│    65 │   │   tex_template.tex_compiler,                                     │
+│    66 │   │   tex_template.output_format,                                    │
+│                                                                              │
+│ /home/jose/.local/share/pipx/venvs/manim/lib/python3.12/site-packages/manim/ │
+│ utils/tex_file_writing.py:213 in compile_tex                                 │
+│                                                                              │
+│   210 │   │   if exit_code != 0:                                             │
+│   211 │   │   │   log_file = tex_file.with_suffix(".log")                    │
+│   212 │   │   │   print_all_tex_errors(log_file, tex_compiler, tex_file)     │
+│ ❱ 213 │   │   │   raise ValueError(                                          │
+│   214 │   │   │   │   f"{tex_compiler} error converting to"                  │
+│   215 │   │   │   │   f" {output_format[1:]}. See log output above or"       │
+│   216 │   │   │   │   f" the log file: {log_file}",                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ValueError: latex error converting to dvi. See log output above or the log file:
+media/Tex/18714be86d827314.log
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:40:35] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+[10/15/24 11:40:36] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2494997288_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 3 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:42:55] INFO     Writing x ^2 + \frac{ b }{  tex_file_writing.py:109
+                             a } x = \frac{ c }{ a } to                         
+                             media/Tex/c37740f9f9357e27.                        
+                             tex                                                
+                    INFO     Writing \frac{ b }{ a } to  tex_file_writing.py:109
+                             media/Tex/361290ed0fea10f8.                        
+                             tex                                                
+[10/15/24 11:42:56] INFO     Writing \frac{ c }{ a } to  tex_file_writing.py:109
+                             media/Tex/ae1851bc7298a0b3.                        
+                             tex                                                
+[10/15/24 11:42:57] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+                    INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_4233803111_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 3 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:43:17] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+                    INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_862629392_42275165                         
+                             57.mp4'                                            
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+[10/15/24 11:43:18] INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_119601482_57463066                         
+                             9.mp4'                                             
+                    INFO     Animation 4 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_2946113                         
+                             082.mp4'                                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 5 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:45:57] INFO     Writing x ^2 + \frac{ b }{  tex_file_writing.py:109
+                             a } x +                                            
+                             \left(\frac{a}{2b}\right)^2                        
+                             = \frac{ c }{ a } +                                
+                             \left(\frac{a}{2b}\right)^2                        
+                             to                                                 
+                             media/Tex/49d892fb6e392dd1.                        
+                             tex                                                
+[10/15/24 11:45:58] INFO     Writing                     tex_file_writing.py:109
+                             \left(\frac{a}{2b}\right)^2                        
+                             to                                                 
+                             media/Tex/06c2b7a08e458ea0.                        
+                             tex                                                
+[10/15/24 11:45:59] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+                    INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_413641114_42275165                         
+                             57.mp4'                                            
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_638978776_57463066                         
+                             9.mp4'                                             
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_294611308                     
+                             2)                                                 
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 5 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:46:21] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+                    INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2131975722_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2907808407_5746306                         
+                             69.mp4'                                            
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_294611308                     
+                             2)                                                 
+[10/15/24 11:46:22] INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_887996304_32252027                         
+                             23.mp4'                                            
+                    INFO     Animation 6 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_9791740                         
+                             61.mp4'                                            
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 7 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:50:33] INFO     Writing x ^2 + \frac{ b }{  tex_file_writing.py:109
+                             a } x +                                            
+                             \left(\frac{a}{2b}\right)^2                        
+                             = \frac{ c }{ a }                                  
+                             +\left(\frac{a}{2b}\right)^                        
+                             2 to                                               
+                             media/Tex/e2217ccd542b73a8.                        
+                             tex                                                
+                    INFO     Writing                     tex_file_writing.py:109
+                             +\left(\frac{a}{2b}\right)^                        
+                             2 to                                               
+                             media/Tex/e2a9114d91b78d09.                        
+                             tex                                                
+[10/15/24 11:50:34] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+                    INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3519729771_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3246752516_5746306                         
+                             69.mp4'                                            
+[10/15/24 11:50:35] INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_294611308                     
+                             2)                                                 
+                    INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2436753919_3225202                         
+                             723.mp4'                                           
+                    INFO     Animation 6 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_3175401                         
+                             953.mp4'                                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 7 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:50:58] INFO     Writing x ^2 + \frac{ b }{  tex_file_writing.py:109
+                             a } x                                              
+                             +\left(\frac{a}{2b}\right)^                        
+                             2 = \frac{ c }{ a }                                
+                             +\left(\frac{a}{2b}\right)^                        
+                             2 to                                               
+                             media/Tex/0caf9d48e06c3913.                        
+                             tex                                                
+                    INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+[10/15/24 11:50:59] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_683978681_42275165                         
+                             57.mp4'                                            
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_4267758867_5746306                         
+                             69.mp4'                                            
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_294611308                     
+                             2)                                                 
+                    INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_934496047_32252027                         
+                             23.mp4'                                            
+[10/15/24 11:51:00] INFO     Animation 6 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_3316103                         
+                             576.mp4'                                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 7 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:53:10] INFO     Writing x ^2 + \frac{ b }{  tex_file_writing.py:109
+                             a } x                                              
+                             +\left(\frac{b}{2a}\right)^                        
+                             2 = \frac{ c }{ a }                                
+                             +\left(\frac{b}{2a}\right)^                        
+                             2 to                                               
+                             media/Tex/2c1969f7a19dbee4.                        
+                             tex                                                
+[10/15/24 11:53:11] INFO     Writing                     tex_file_writing.py:109
+                             +\left(\frac{b}{2a}\right)^                        
+                             2 to                                               
+                             media/Tex/3900a54685bfc057.                        
+                             tex                                                
+                    INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+[10/15/24 11:53:12] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2996039359_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2981047363_5746306                         
+                             69.mp4'                                            
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_294611308                     
+                             2)                                                 
+                    INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_762048851_32252027                         
+                             23.mp4'                                            
+[10/15/24 11:53:13] INFO     Animation 6 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_1558568                         
+                             647.mp4'                                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 7 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:54:32] INFO     Writing \left(x +           tex_file_writing.py:109
+                             \frac{a}{2b} \right)^2 =                           
+                             \frac{b^2 - 4ac}{2a} to                            
+                             media/Tex/66250152823cf3b0.                        
+                             tex                                                
+[10/15/24 11:54:33] INFO     Writing \left(x +           tex_file_writing.py:109
+                             \frac{a}{2b} \right)^2 to                          
+                             media/Tex/74dfcfff1cf2cc8d.                        
+                             tex                                                
+[10/15/24 11:54:34] INFO     Writing \frac{b^2 -         tex_file_writing.py:109
+                             4ac}{2a} to                                        
+                             media/Tex/3b72b083d18d4dea.                        
+                             tex                                                
+                    INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+[10/15/24 11:54:35] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3695464374_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_607392_574630669.m                         
+                             p4'                                                
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_294611308                     
+                             2)                                                 
+[10/15/24 11:54:36] INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2593277538_3225202                         
+                             723.mp4'                                           
+                    INFO     Animation 6 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_155856864                     
+                             7)                                                 
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 7 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py chicharronera
+Manim Community v0.18.1
+
+[10/15/24 11:54:49] INFO     Animation 0 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             1185818338_2268332985_22378689                     
+                             92)                                                
+[10/15/24 11:54:50] INFO     Animation 1 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2563603699_4227516                         
+                             557.mp4'                                           
+                    INFO     Animation 2 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_148939618                     
+                             2)                                                 
+                    INFO     Animation 3 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3307458243_5746306                         
+                             69.mp4'                                            
+                    INFO     Animation 4 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_294611308                     
+                             2)                                                 
+                    INFO     Animation 5 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2314183522_3225202                         
+                             723.mp4'                                           
+                    INFO     Animation 6 : Using cached     cairo_renderer.py:88
+                             data (hash :                                       
+                             624642324_3890345977_155856864                     
+                             7)                                                 
+[10/15/24 11:54:51] INFO     Animation 7 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_2440543631_1440186                         
+                             541.mp4'                                           
+                    INFO     Animation 8 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/partial_mo                         
+                             vie_files/chicharronera/62                         
+                             4642324_3890345977_2342942                         
+                             037.mp4'                                           
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/mani                         
+                             m_projects/002/media/video                         
+                             s/square/480p15/chicharron                         
+                             era.mp4'                                           
+                                                                                
+                    INFO     Rendered chicharronera                 scene.py:247
+                             Played 9 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/manim_project                
+                             s/002/media/videos/square/480p15/ch                
+                             icharronera.mp4'                                   
+jose@icn:~/Documents/manim_projects/002$ manim -pql square.py AnimateParentheses
