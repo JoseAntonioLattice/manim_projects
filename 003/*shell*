@@ -1,0 +1,26 @@
+jose@ATT:~/Documents/python/manim/003$ manim -pql quotes.py EinsteinQuote
+Manim Community v0.18.1
+
+[10/15/24 21:40:20] INFO     Animation 0 : Partial      scene_file_writer.py:527
+                             movie file written in                              
+                             '/home/jose/Documents/pyth                         
+                             on/manim/003/media/videos/                         
+                             quotes/480p15/partial_movi                         
+                             e_files/EinsteinQuote/1185                         
+                             818338_1953204067_22313245                         
+                             7.mp4'                                             
+                    INFO     Combining to Movie file.   scene_file_writer.py:617
+                    INFO                                scene_file_writer.py:737
+                             File ready at                                      
+                             '/home/jose/Documents/pyth                         
+                             on/manim/003/media/videos/                         
+                             quotes/480p15/EinsteinQuot                         
+                             e.mp4'                                             
+                                                                                
+                    INFO     Rendered EinsteinQuote                 scene.py:247
+                             Played 1 animations                                
+                    INFO     Previewed File at:                  file_ops.py:231
+                             '/home/jose/Documents/python/manim/                
+                             003/media/videos/quotes/480p15/Eins                
+                             teinQuote.mp4'                                     
+jose@ATT:~/Documents/python/manim/003$ 

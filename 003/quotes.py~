@@ -1,0 +1,13 @@
+from manim import *
+
+class EinsteinQuote(Scene):
+    def construct(self):
+        quote = Text("No me heches tus pedos caldosos \n"
+                     " que no tengo cuchara, mami.")
+        einstein = ImageMobject("/home/jose/Documents/python/manim/003/ein.png").to_edge(DR)
+        author = Text("-Albert Einstein").to_edge(DOWN)
+        self.add(einstein)
+        self.play(Write(quote), run_time = 5)
+        self.play(Write(author), run_time = 2)
+       
+        self.wait(3)
