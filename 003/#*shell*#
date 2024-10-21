@@ -4015,4 +4015,24 @@ Manim Community v0.18.1
                              '/home/jose/Documents/python/manim/                
                              003/media/videos/quotes/480p15/Eins                
                              teinQuote.mp4'                                     
+jose@ATT:~/Documents/python/manim/003$ git add .
+jose@ATT:~/Documents/python/manim/003$ git commit -m "albert einstein quote"
+[master a48f215] albert einstein quote
+ 6 files changed, 4083 insertions(+)
+ create mode 100644 003/#*shell*#
+ create mode 100644 003/*shell*
+ create mode 120000 003/.#*shell*
+ create mode 100644 003/ein.png
+ create mode 100644 003/quotes.py
+ create mode 100644 003/quotes.py~
+jose@ATT:~/Documents/python/manim/003$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 51.70 KiB | 12.92 MiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
+To github.com:JoseAntonioLattice/manim_projects.git
+   1bb557c..a48f215  master -> master
 jose@ATT:~/Documents/python/manim/003$ 
