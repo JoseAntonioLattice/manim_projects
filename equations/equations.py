@@ -361,5 +361,82 @@ class quadratic(Scene):
         self.play(TransformMatchingTex(eq4,eq5))
         self.wait()
         self.clear()
-        
 
+def get_sub_indexes(tex):
+    ni = VGroup()
+    colors = ["RED","TEAL","GREEN","BLUE","PURPLE"]
+    for i in range(len(tex)):
+        n = Text(f"{i}").scale(0.7)
+        n.next_to(tex[i],DOWN,buff=0.01)
+        ni.add(n)
+    return ni
+        
+class trans1(Scene):
+    def construct(self):
+        #                           Why this?    |
+        #
+        source = MathTex("\\sqrt{\\frac{1}{8}}")[0]
+        target = MathTex("\\frac{1}{2\\sqrt{2}}")[0]
+        # If you ask yourself this, go back to "Tex as array"
+        # section in the "Text and Tex" chapter
+        
+        VGroup(source,target).scale(4).arrange(RIGHT,buff=2)
+        source_ind = get_sub_indexes(source)
+        target_ind = get_sub_indexes(target)
+        
+        self.add(
+            source, source_ind,
+            target, target_ind
+        )
+
+
+class trans2(Scene):
+    def construct(self):
+        source = MathTex("\\sqrt{\\frac{1}{8}}")[0]
+        target = MathTex("\\frac{1}{2\\sqrt{2}}")[0]
+        
+        VGroup(source,target).scale(4)
+        self.add(source)
+        transform_index = [
+            [0,1,2,3,4,"r4"],
+            # | | | | |  |
+            # v v v v v  v
+            [3,4,0,1,2, 5]
+        ]
+        self.play(
+            *[
+                # Try replacing "ReplacementTransform" with "FadeTransform"
+                ReplacementTransform(source[i],target[j])
+                if type(i) is int else
+                ReplacementTransform(source[int(i[1:])].copy(),target[j])
+                for i,j in zip(*transform_index)
+            ],
+            run_time=3
+        )
+        self.wait()
+
+class trans3(Scene):
+    def construct(self):
+        source = MathTex("\\sqrt{\\frac{1}{8}}")[0]
+        target = MathTex("\\frac{1}{2\\sqrt{2}}")[0]
+        
+        VGroup(source,target).scale(4)
+        self.add(source)
+        transform_index = [
+            ["f0","f1",2,3,4,"r4"],
+            #  |    |   | | |  |
+            #  v    v   v v v  v
+            [ 3,   4,  0,1,2, 5]
+        ]
+        self.play(
+            *[
+                ReplacementTransform(source[i],target[j])
+                if type(i) is int else
+                ReplacementTransform(source[int(i[1:])].copy(),target[j])
+                if i[0]=="r" else
+                FadeTransform(source[int(i[1:])],target[j])
+                for i,j in zip(*transform_index)
+            ],
+            run_time=3
+        )
+        self.wait()
