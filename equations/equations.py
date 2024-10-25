@@ -301,16 +301,22 @@ class quadratic(Scene):
         eq1 = MathTex("a","x^2","+","b","x","+","c","=","0",
                       substrings_to_isolate = [*isolate,"0"]
                       )
+        eq1copy = MathTex("ax^2 + bx + c = 0")[0]
         eq2 = MathTex("a","x^2","+","b","x","=","-","c",
                       substrings_to_isolate = [*isolate])
-        eq3 = MathTex("x^2","+","{ b \\over a }","=","-","{ c \\over a }")
-        eq3b = MathTex("x^2","+","{ b \\over a }","=","-","{ c \\over a }",
+        eq2copy = MathTex("ax^2+bx=-c")[0]
+        eq3 = MathTex("x^2","+","{ b \\over a }","x", #0 1 2 3
+                      "=", # 4
+                      "-","{ c \\over a }") # 5 6
+        eq3b = MathTex("x^2","+","{ b \\over a }","x", # 0 1 2 3
+                       "=", # 4
+                       "-","{ c \\over a }", # 5 6
                        substrings_to_isolate=isolate)
-        eq4 = MathTex("x^2","+","{ b \\over a }","+", #0 1 2 3
-                      "\\left(","{ b \\over 2a }","\\right)^2", # 4 5 6
-                      "=", # 7
-                      "\\left(","{ b \\over 2a }","\\right)^2", # 8 9 10
-                      "-","{ c \\over a }", # 11 12
+        eq4 = MathTex("x^2","+","{ b \\over a }","x","+", #0 1 2 3 4
+                      "\\left(","{ b \\over 2a }","\\right)^2", # 5 6 7  
+                      "=", # 8
+                      "\\left(","{ b \\over 2a }","\\right)^2", # 9 10 11
+                      "-","{ c \\over a }", # 12 13
                       #substrings_to_isolate=[*isolate,
                       #                       "\\left(","\right)","2a"]
                       )
@@ -330,7 +336,7 @@ class quadratic(Scene):
                       "-","{ c \\over a }"#, # 7 8
                       #substrings_to_isolate=isolate
                       )
-        
+     
         self.play(Write(eq1))
         self.wait()
         self.play(TransformMatchingTex(eq1,eq2))
@@ -339,35 +345,39 @@ class quadratic(Scene):
         self.wait()
         self.clear()
 
-        self.play(ReplacementTransform(eq3[0:3],eq4[0:3]),
-                  ReplacementTransform(eq3[3],eq4[7]),
-                  ReplacementTransform(eq3[4:6],eq4[11:13])
+        self.play(ReplacementTransform(eq3[0:4],eq4[0:4]),
+                  ReplacementTransform(eq3[4],eq4[8]),
+                  ReplacementTransform(eq3[5:7],eq4[12:14])
                   )
         self.wait()
         
         self.play(FadeIn(add))
         self.wait()
-        self.play(ReplacementTransform(add[0],eq4[3]),
-                  ReplacementTransform(add[1].copy(),eq4[4]),
-                  ReplacementTransform(add[2].copy(),eq4[5]),
-                  ReplacementTransform(add[3].copy(),eq4[6]),
-                  ReplacementTransform(add[1],eq4[8]),
-                  ReplacementTransform(add[2],eq4[9]),
-                  ReplacementTransform(add[3],eq4[10])
+        self.play(ReplacementTransform(add[0],eq4[4]),
+                  ReplacementTransform(add[1].copy(),eq4[5]),
+                  ReplacementTransform(add[2].copy(),eq4[6]),
+                  ReplacementTransform(add[3].copy(),eq4[7]),
+                  ReplacementTransform(add[1],eq4[9]),
+                  ReplacementTransform(add[2],eq4[10]),
+                  ReplacementTransform(add[3],eq4[11])
                 
                   )
         self.wait()
 
+        nothing = MathTex(".")
         self.play(TransformMatchingTex(eq4,eq5))
         self.wait()
-        self.clear()
-
+        self.play(ReplacementTransform(eq5[8][1],eq6[6][1]),ReplacementTransform(eq5[6][0],nothing[0]))
+        self.play(ReplacementTransform(eq5,eq6))
+        self.wait()
+        #self.clear()
+        
 def get_sub_indexes(tex):
     ni = VGroup()
-    colors = ["RED","TEAL","GREEN","BLUE","PURPLE"]
+    colors = [RED,TEAL,GREEN,BLUE,PURPLE]
     for i in range(len(tex)):
-        n = Text(f"{i}").scale(0.7)
-        n.next_to(tex[i],DOWN,buff=0.01)
+        n = Text(f"{i}",color=colors[i%len(colors)]).scale(0.5)
+        n.next_to(tex[i].set_color(colors[i%len(colors)]),DOWN,buff=0.01)
         ni.add(n)
     return ni
         
@@ -440,3 +450,56 @@ class trans3(Scene):
             run_time=3
         )
         self.wait()
+
+
+class eqs(Scene):
+    def construct(self):
+
+        eq1 = MathTex("ax^2 + bx + c = 0")[0]
+        eq2 = MathTex("ax^2 + bx = -c ")[0]
+        eq3 = MathTex("x^2 + \\frac{b}{a}x  = -\\frac{c}{a}")[0]
+        eq4 = MathTex("x^2 + \\frac{b}{a}x + \\left(\\frac{b}{2a}\\right)^2 =  \\left(\\frac{b}{2a}\\right)^2 -\\frac{c}{a}")[0]
+        eq5a = MathTex("\\left(x + \\frac{b}{2a}\\right)^2 = \\left( \\frac{b}{2a} \\right)^2 - \\frac{c}{a}")[0]
+        eq5b = MathTex("\\left(x + \\frac{b}{2a}\\right)^2 = \\frac{b^2}{4a^2} - \\frac{c}{a}")[0]
+        
+        
+        all1 = VGroup(eq1,eq2).scale(2.5).arrange(DOWN,buff=1)
+        all2 = VGroup(eq3,eq4).scale(1.5).arrange(DOWN,buff=1)
+        #eqs5 = VGroup(eq5a,eq5b).scale(1.5).arrange(DOWN,buff=1)
+        eq1_ind = get_sub_indexes(eq1)
+        eq2_ind = get_sub_indexes(eq2)
+        eq3_ind = get_sub_indexes(eq3)
+        eq4_ind = get_sub_indexes(eq4)
+        eq5a_ind = get_sub_indexes(eq5a)
+        eq5b_ind = get_sub_indexes(eq5b)
+        
+        '''self.add(eq1, eq1_ind,
+                 eq2, eq2_ind)
+        self.wait(2)
+        self.clear()
+        
+        self.add(eq3, eq3_ind,
+                 eq4, eq4_ind)
+        self.wait(2)
+        '''
+        #self.add(eq5a,eq5a_ind,eq5b,eq5b_ind)
+        self.add(eq5a)
+        transform_index = [[0,1,2,3,4,5,6,7,8,9,11,12,13,14,16,"r16","r16",17,18,19,20,"v10","v15"],
+                           [0,1,2,3,4,5,6,7,8,9,10,12,13,14,11,15   ,13   ,16,17,18,19,10   , 15  ]]
+
+        self.wait(2)
+        
+        self.play(
+            *[
+                ReplacementTransform(eq5a[i],eq5b[j])
+                if type(i) is int else
+                ReplacementTransform(eq5a[int(i[1:])].copy(),eq5b[j])
+                if i[0]=="r" else
+                FadeTransform(eq5a[int(i[1:])],eq5b[j])
+                #if i[0]=="v" else
+                #FadeOut(eq5a[int(i[1:])])
+                for i,j in zip(*transform_index)
+            ],
+            run_time=3
+        )
+        #self.play(Transform(eq5a,eq5b))
