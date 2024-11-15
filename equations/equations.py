@@ -503,3 +503,62 @@ class eqs(Scene):
             run_time=3
         )
         #self.play(Transform(eq5a,eq5b))
+
+
+
+class pitagoras_indx(Scene):
+    def construct(self):
+
+        eq1 = MathTex("a^2 + b^2 = c^2")[0]
+        eq2 = MathTex("a^2 = c^2 - b^2")[0]
+        eq3 = MathTex("a = \\sqrt{c^2 - b^2}")[0]
+
+        group = VGroup(eq1,eq2,eq3).arrange(DOWN,buff = 1).scale(1.5)
+        
+        eq1_i = get_sub_indexes(eq1)
+        eq2_i = get_sub_indexes(eq2)
+        eq3_i = get_sub_indexes(eq3)
+        
+        
+        self.add(eq1,eq1_i,eq2,eq2_i,eq3,eq3_i)
+
+
+class pitagoras(Scene):
+    def construct(self):
+
+        eq1 = MathTex("a^2 + b^2 = c^2")[0]
+        eq2 = MathTex("a^2 = c^2 - b^2")[0]
+        eq3 = MathTex("a = \\sqrt{c^2 - b^2}")[0]
+
+        
+        transform_indices_1_2 = [[0,1,2,3,4,5,6,7],
+                                 [0,1,5,6,7,2,3,4]]
+        
+        transform_indices_2_3 = [[0,1,"r1",2,3,4,5,6,7 ],
+                                 [0,2,3,   1,4,5,6,7,8]]
+
+        self.play(
+            *[
+                # Try replacing "ReplacementTransform" with "FadeTransform"
+                ReplacementTransform(eq1[i],eq2[j])
+                if type(i) is int else
+                ReplacementTransform(eq1[int(i[1:])].copy(),eq2[j])
+                for i,j in zip(*transform_indices_1_2)
+            ],
+            run_time=3
+        )
+        self.wait()
+        
+        self.play(
+            *[
+                # Try replacing "ReplacementTransform" with "FadeTransform"
+                ReplacementTransform(eq2[i],eq3[j])
+                if type(i) is int else
+                ReplacementTransform(eq1[int(i[1:])].copy(),eq3[j])
+                for i,j in zip(*transform_indices_2_3)
+            ],
+            run_time=3
+        )
+        self.wait()
+        #self.add(eq1)
+        #self.wait(2)
