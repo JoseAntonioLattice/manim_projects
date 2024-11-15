@@ -521,8 +521,19 @@ class pitagoras_indx(Scene):
         
         
         self.add(eq1,eq1_i,eq2,eq2_i,eq3,eq3_i)
-
-
+        
+def Transform_by_term( eq_1, eq_2, indices):
+    # Try replacing "ReplacementTransform" with "FadeTransform"
+    transform_list = []
+    for i,j in zip(*indices):
+        if type(i) is int:
+            transform_list.append(ReplacementTransform(eq_1[i],eq_2[j]))
+        elif i[0]=="f":
+            transform_list.append(FadeTransform(eq_1[int(i[1:])],eq_2[j]))
+        else:
+            transform_list.append(ReplacementTransform(eq_1[int(i[1:])].copy(),eq_2[j]))
+    return transform_list
+        
 class pitagoras(Scene):
     def construct(self):
 
@@ -536,29 +547,13 @@ class pitagoras(Scene):
         
         transform_indices_2_3 = [[0,1,"r1",2,3,4,5,6,7 ],
                                  [0,2,3,   1,4,5,6,7,8]]
-
-        self.play(
-            *[
-                # Try replacing "ReplacementTransform" with "FadeTransform"
-                ReplacementTransform(eq1[i],eq2[j])
-                if type(i) is int else
-                ReplacementTransform(eq1[int(i[1:])].copy(),eq2[j])
-                for i,j in zip(*transform_indices_1_2)
-            ],
-            run_time=3
-        )
+        
+        self.play(*[Transform_by_term(eq1, eq2, transform_indices_1_2)],
+                    run_time=3)
         self.wait()
         
-        self.play(
-            *[
-                # Try replacing "ReplacementTransform" with "FadeTransform"
-                ReplacementTransform(eq2[i],eq3[j])
-                if type(i) is int else
-                ReplacementTransform(eq1[int(i[1:])].copy(),eq3[j])
-                for i,j in zip(*transform_indices_2_3)
-            ],
-            run_time=3
-        )
+        self.play(*[Transform_by_term(eq2, eq3, transform_indices_2_3)],
+                  run_time=3)
         self.wait()
         #self.add(eq1)
         #self.wait(2)
